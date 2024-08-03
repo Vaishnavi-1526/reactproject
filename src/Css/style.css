@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.Head{
+    background-color: grey;
+    width:100vw;
+    color:black;
+    padding:5px 8px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.borderless{
+    border:0px solid rgb(156, 125, 63);
+}
+.container h2{
+    flex-basis:92vw;
+    position:absolute;
+    left:25vw;
+    text-align:center;
+    right:25vw;
+    top:70px;
+}
+.container h3{
+    flex-basis:8vw;
+    position:absolute;
+    right:20px;
+    top:70px;
+    border:2px solid black;
+    border-radius:20px;
+    padding:0px;
+}
+.login-container{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.login-container img{
+    background-color: rgb(156,125,63);
+    margin-left:25vw;
+    border:2px solid brown;
+    border-right:1px solid rgb(156,125,63);
+    flex-basis:28vw;
+}
+.login-container div{
+    font-size: 20px;
+    margin-right:25vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:2px solid brown;
+    border-left:0px solid rgb(156, 125, 63);
+    background-color: rgb(250, 250, 251);
+    flex-basis:25vw;
+}
+.log{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items: left;
+}
+.log input{
+    height:5vh;
+    background-color: rgb(201, 182, 182);
+    border-color: rgb(201, 182, 182);
+}
+
+.fa-eye{
+    height:3vh;
+}
+.total{
+    height:100vh;
+    width:100%;
+}
+.about{
+    font-size: 17px;
+    font-weight:500;
+    width:40%;
+    margin: auto;
+    margin-top:80px;
+    border:2px solid brown;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap:0px;
+    margin-bottom:40px;
+}
+.box{
+     background-color: rgb(202, 164, 89);
+     height:10vh;
+     width:100%;
+}
+.about input{
+    height:20px;
+    background-color: rgb(201, 182, 182);
+    border-color:rgb(201, 182, 182) ;
+    margin-left:20px;
+    margin-right:20px;
+}
+.grid1{
+    display:grid;
+    grid-template-rows:auto auto;
+    grid-template-columns:50% 50%;
+    grid-auto-flow: row;
+    column-gap:0px;
+    width:100%;
+    margin:auto;
+
+}
+.grid1 label{
+    width:60%;
+    padding:0px;
+    margin:0px;
+}
+.about label{
+    margin-left:20px;
+    margin-right:20px;
+}
+.image{
+    align-self: center;
+    border-radius: 50%;
+    border:1px solid black;
+    position:relative;
+    bottom:40px;
+    background-color:white;
+}
+.contact{
+    width:80%;
+    margin:auto;
+    margin-bottom:30px;
+}
+.start{
+    margin-top:0px;
+    width:98%;
+    margin:auto;
+}
+.contact h2{
+    margin-top:30px;
+    text-align:center;
+}
+.contain-1{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin:auto;
+}
+.box-1{
+    height:40vh;
+    padding:20px;
+    flex-basis:50%;
+    border: 2px solid brown;
+}
+.box-2{
+    height:40vh;
+    padding:20px;
+    flex-basis:50%;
+    border: 2px solid brown;
+    border-left:0px;
+}
+.home{
+    width:100%;
+    height:auto;
+    background-color:grey;
+}
+.under{
+    width:98%;
+    margin:auto;
+    background-color:rgb(156, 125, 63) ;
+}
+.furthur{
+    width:79%;
+    margin:auto;
+    background-color: rgb(156, 125, 63) ;
+}
+.under2{
+    width:98%;
+    margin:auto;
+    background-color:white ;
+}
+.furthur2{
+    width:80%;
+    margin:auto;
+    height:600px;
+    padding:30px 0px;
+    background-color: #ffffff ;
+}
+.image-grid{
+    width:100%;
+    display:grid;
+    gap:10px 0px;
+    column-gap: 0px;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-auto-flow: row;
+    border-collapse: collapse;
+   
+}
+.image-grid img{
+    padding:5px;
+    width:50%;
+    height:150px;
+}
+.big ::placeholder{
+    font-weight: 800;
+    font-size:25 px;
+}
+.d-flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 15 px;
+    font-size: 20 px;
+    color:black;
+    font-size: 16 px;
+    font-weight: 700;
+}
+hr{
+    height: 2px ;
+    background-color: black;
+}
+.d-flex ::placeholder{
+    padding:2px;
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.borderles textarea{
+    border-color: white;
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bordered{
+    border:2px dotted black;
+}
