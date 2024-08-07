@@ -2,17 +2,16 @@ import React, { useState ,useEffect} from 'react'
 import "../Css/style.css"
 import {  useNavigate } from 'react-router-dom'
 import { NavLink } from 'react-router-dom';
-import Swal from 'sweetalert2';
 function ContactUs() {
     const navigate=useNavigate();
     useEffect(() => {
         const role=JSON.parse(localStorage.getItem('userRole'));
         if(role===null){
-        Swal.fire({
-            title:"Not logged in ?",
-            text:"Log In or Sign Up",
-            icon:"warning"
-        });
+            
+                alert("Invalid credentials.Try again or Sign up for free");
+            
+
+        
         navigate("/");
         }
     }, [])
@@ -37,11 +36,9 @@ function ContactUs() {
             setFormData(oldFormData);       
         }
         else{
-            Swal.fire({
-                icon:"error",
-                title:"Error!!!",
-                text:"You need to login first"
-            });
+            
+                alert("You need to login first");
+            
         }
     }
     let styleApp={
