@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactproject/static/css/main.d05e3add.css",
+    "main.js": "/reactproject/static/js/main.f6dc9063.js",
+    "static/js/453.ed3810f9.chunk.js": "/reactproject/static/js/453.ed3810f9.chunk.js",
+    "static/media/Hero image 1.png": "/reactproject/static/media/Hero image 1.6b3b63436e6091445dfa.png",
+    "static/media/Login in page image.png": "/reactproject/static/media/Login in page image.840b16884f24f039b7ac.png",
+    "static/media/image 18.png": "/reactproject/static/media/image 18.392db54b7b832f95ec3f.png",
+    "static/media/image 19.png": "/reactproject/static/media/image 19.c28094999f34ec42b2cc.png",
+    "static/media/image 11.png": "/reactproject/static/media/image 11.5e41558a3ebcf4941d3b.png",
+    "static/media/image 8.png": "/reactproject/static/media/image 8.37aee8fce4b095b82aa4.png",
+    "static/media/image 6.png": "/reactproject/static/media/image 6.c7d675281eed48208d6b.png",
+    "static/media/image 3.png": "/reactproject/static/media/image 3.aefc0b20b400221de91b.png",
+    "static/media/image 10.png": "/reactproject/static/media/image 10.b602dca542dd2760091e.png",
+    "static/media/image 2.png": "/reactproject/static/media/image 2.2393faf7587912ba6706.png",
+    "static/media/image 5.png": "/reactproject/static/media/image 5.260db7a2668119fbc23f.png",
+    "static/media/image 17.png": "/reactproject/static/media/image 17.4f44af30b9abff8131a3.png",
+    "static/media/image 1.png": "/reactproject/static/media/image 1.a9030ff1feba8b4daff1.png",
+    "static/media/image 4.png": "/reactproject/static/media/image 4.a4f99e52c01d722e512f.png",
+    "static/media/image 14-1.png": "/reactproject/static/media/image 14-1.30a67db2a482dd7b2e10.png",
+    "static/media/image 7.png": "/reactproject/static/media/image 7.92bec972a0497ac5c775.png",
+    "index.html": "/reactproject/index.html",
+    "main.d05e3add.css.map": "/reactproject/static/css/main.d05e3add.css.map",
+    "main.f6dc9063.js.map": "/reactproject/static/js/main.f6dc9063.js.map",
+    "453.ed3810f9.chunk.js.map": "/reactproject/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d05e3add.css",
+    "static/js/main.f6dc9063.js"
+  ]
+}
