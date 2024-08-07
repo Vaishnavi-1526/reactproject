@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import "../Css/style.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPencil } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function DescriptionPage () {
     const { id } = useParams();
@@ -127,7 +126,7 @@ export default function DescriptionPage () {
                                         {
                                     (role==="admin")
                                         ?
-                                        <button style={{alignSelf:'end'}} onClick={handleClick} name="pencil1"><FontAwesomeIcon icon={faPencil} /></button>
+                                        <button style={{alignSelf:'end'}} onClick={handleClick} name="pencil1"><i className="fa-solid fa-pencil"></i></button>
                                         :
                                         <></>
                                     }</span><br/>
@@ -140,7 +139,7 @@ export default function DescriptionPage () {
                                     {
                                     (role==="admin")
                                         ?
-                                        <button style={{alignSelf:'end',flexBasis:"2%"}}  onClick={handleClick} name="pencil2"><FontAwesomeIcon icon={faPencil}/></button>
+                                        <button style={{alignSelf:'end',flexBasis:"2%"}}  onClick={handleClick} name="pencil2"><i className="fa-solid fa-pencil"></i></button>
                                         :
                                         <></>
                                     }</span><br/><hr/><br/>
@@ -178,7 +177,7 @@ export default function DescriptionPage () {
                                     {
                                         (role==="admin")
                                         ?
-                                        <button style={{flexBasis:'2%',alignSelf:"end"}} name="pencil3" onClick={handleClick} ><FontAwesomeIcon icon={faPencil}/></button>
+                                        <button style={{flexBasis:'2%',alignSelf:"end"}} name="pencil3" onClick={handleClick} ><i className="fa-solid fa-pencil"></i></button>
                                         :
                                         <></>
                                     }</span>
