@@ -1,11 +1,11 @@
 import React, { useEffect ,useState} from 'react'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-import image1 from "../folder/image1.png"
-import HeroImage1 from "../folder/HeroImage1.png"
-import HeroImage2 from "../folder/heroImage2.png"
+import image1 from "../folder/image 1.png"
+import HeroImage1 from "../folder/Hero image 1.png"
+import HeroImage2 from "../folder/Hero image 1.png"
 import { useLocation, useNavigate } from 'react-router-dom'
-import Swal from 'sweetalert2'
+
 import { useDispatch,useSelector } from 'react-redux'
 import { setPage, nextPage, prevPage, goToFirstPage, goToLastPage } from '../Redux/imagesSlice';
 
@@ -18,11 +18,9 @@ function Home() {
   console.log(role);
   useEffect(() => {
     if(role===null){
-      Swal.fire({
-        title:"Not logged in ?",
-        text:"Log In or Sign Up",
-        icon:"warning"
-    });
+      alert(
+        "Invalid credentials.Try again or sign up for free"
+      )
     navigate("/");
     }
   }, [role,navigate])
