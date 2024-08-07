@@ -1,9 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPencil } from '@fortawesome/free-solid-svg-icons';
+
 import React, { useState,useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import LoginInPageImage from "../folder/LoginInPageImage.png"
-import Swal from 'sweetalert2';
+import LoginInPageImage from "../folder/Login in page image.png"
+
 
 export default function AboutUsAdmin() {
   const message=JSON.parse(localStorage.getItem("userRole"));
@@ -49,12 +48,10 @@ export default function AboutUsAdmin() {
       localStorage.setItem('admin',JSON.stringify(oldData));
     }
     else{
-      Swal.fire({
-        title:"Input not Received",
-        icon:"warning"
-      })
+      alert("Input not received");
+      }
     }
-  }
+  
   return (
     <div className="total" style={{width:'100%',margin:'auto',backgroundColor:'grey',height:'109vh'}}>
       <div style={{width:'98%',margin:'auto',backgroundColor:'white',height:'109vh'}}>
@@ -71,7 +68,7 @@ export default function AboutUsAdmin() {
 
         <span style={{display:"flex",marginBottom:"0px",height:"24px"}}>
           <label htmlFor="name" style={{flexBasis:"77%"}}>Name </label> 
-          <span style={{flexBasis:"23%"}}>Edit<button type="button" onClick={handleEdit} ><FontAwesomeIcon icon={faPencil}></FontAwesomeIcon></button></span>
+          <span style={{flexBasis:"23%"}}>Edit<button type="button" onClick={handleEdit} ><i className="fa-solid fa-pencil"></i></button></span>
         </span>
         <input type="text" name="name" value={status.name} onChange={handleChange}></input><br></br>
 
