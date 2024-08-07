@@ -1,8 +1,7 @@
 import React,{useEffect, useState} from 'react'
-import LoginInPageImage from "../folder/LoginInPageImage.png"
+import LoginInPageImage from "../folder/Login in page image.png"
 import "../Css/style.css"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faEyeSlash,faEye} from "@fortawesome/free-solid-svg-icons"
+
 import { useNavigate,NavLink } from 'react-router-dom'
 function Signup() {
   const [showPassword,setShowPassword]=useState(false);
@@ -49,7 +48,7 @@ const handleSubmit=(e)=>{
                     <span style={{display:"flex",width:'100%'}}>
                     <input type={(showPassword?"text" : "password")} name="password"></input>
                     <button onClick={()=>setShowPassword(!showPassword)} type="button">
-                        <FontAwesomeIcon icon={showPassword?faEyeSlash:faEye} className='fa-eye'/></button
+                        <i className={showPassword?"fa-solid fa-eye-slash":"fa-solid fa-eye"}></i></button
                     ></span>
 
                     <span style={{fontWeight:"500"}}>Choose Your Role</span>
