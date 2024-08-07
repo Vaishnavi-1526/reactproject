@@ -1,24 +1,24 @@
 import { createSlice } from '@reduxjs/toolkit';
-import image1 from '../folder/image1.png';
-import image2 from '../folder/image2.png';
-import image3 from "../folder/image3.png"
-import image4 from "../folder/image4.png"
-import image5 from "../folder/image5.png"
-import image6 from "../folder/image6.png"
-import image7 from "../folder/image7.png"
-import image8 from "../folder/image8.png"
-import image9 from "../folder/image9.png"
-import image10 from "../folder/image10.png"
-import image11 from "../folder/image11.png"
-import image12 from "../folder/image12.png"
-import image13 from "../folder/image13.png"
-import image14 from "../folder/image14.png"
-import image15 from "../folder/image14-1.png"
-import image16 from "../folder/image15.png"
-import image17 from "../folder/image16.png"
-import image18 from "../folder/image17.png"
-import image19 from "../folder/image18.png"
-import image20 from "../folder/image19.png"
+import image1 from '../folder/image 1.png';
+import image2 from '../folder/image 2.png';
+import image3 from "../folder/image 3.png"
+import image4 from "../folder/image 4.png"
+import image5 from "../folder/image 5.png"
+import image6 from "../folder/image 6.png"
+import image7 from "../folder/image 7.png"
+import image8 from "../folder/image 8.png"
+import image9 from "../folder/image 9.png"
+import image10 from "../folder/image 10.png"
+import image11 from "../folder/image 11.png"
+import image12 from "../folder/image 12.png"
+import image13 from "../folder/image 13.png"
+import image14 from "../folder/image 14.png"
+import image15 from "../folder/image 14-1.png"
+import image16 from "../folder/image 15.png"
+import image17 from "../folder/image 16.png"
+import image18 from "../folder/image 17.png"
+import image19 from "../folder/image 18.png"
+import image20 from "../folder/image 19.png"
 // Import all other images...
 
 const images = [
