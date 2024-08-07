@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import LoginInPageImage from "../folder/LoginInPageImage.png"
+import LoginInPageImage from "../folder/Login in page image.png"
 import "../Css/style.css"
 import usersData from "../Data/Users.json";
 import {  NavLink, useNavigate } from 'react-router-dom';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faEyeSlash,faEye} from "@fortawesome/free-solid-svg-icons"
-import Swal from "sweetalert2";
+
+
 function Login() {
     const [showPassword,setShowPassword]=useState(false);
     const [userRol,setUserRol]=useState(null);
@@ -50,11 +49,7 @@ function Login() {
                 navigate("/home");
         }
         else{
-            Swal.fire({
-                title:"Invalid",
-                text:"Username or Password",
-                icon:"error"
-            })
+            alert("Invalid");
         }
     }
   return (
@@ -76,7 +71,7 @@ function Login() {
                     <span style={{display:"flex"}}>
                         <input type={(showPassword?"text" : "password")} name="password"></input>
                         <button onClick={()=>setShowPassword(!showPassword)} type="button">
-                        <FontAwesomeIcon icon={showPassword?faEyeSlash:faEye} className='fa-eye'/></button>
+                        <i clasName="fa-solid fa-eye"></i></button>
                     </span>
                     <button style={myStyle} type="submit">Login</button>
                 </form>
